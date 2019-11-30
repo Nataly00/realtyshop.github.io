@@ -1,0 +1,227 @@
+.header{
+    min-height: 159px;
+ }
+ .container-header{
+     position: fixed;
+     z-index: 1;
+     width: 100%;
+ 
+ }
+ 
+ .header-menu-1{
+     background-color: white;
+ } 
+ .header-menu-2 {
+     background: rgb(0,175,255);
+ 
+ }
+ .container{
+     width: 1231px;
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     flex-wrap: wrap;
+ 
+ }
+ .logo-header{
+     margin-left: 17px;
+     width: 220px;
+     height: 75px;
+ }
+ .phone-header-1{
+     flex-wrap: wrap;
+     align-items: center;	
+     min-width: 300px;
+ 
+ }
+ .menu{
+     display: flex;
+     position: relative;
+ 
+ }
+ .icon-phone{
+     background-image: url(phone1.png);
+     background-size: 22px 22px;
+     background-repeat: no-repeat;
+     background-position: center;
+     width: 22px;
+     height: 22px;
+     margin-right: 20px;
+     margin-top: 7px;
+ }
+ .phone-header{	
+     font-weight: 700;
+     font-size: 25px;
+     display: flex;
+     align-items: center;
+     justify-content: flex-end;
+     margin-bottom: 5px;
+     color: rgb(10,24,35);
+ }
+ .order-phone{
+     display: flex;
+     justify-content: flex-end;
+     color: rgb(136,146,152);
+     text-decoration: underline;
+ 
+ }
+ .menu-header{
+     display: flex;
+ 
+ 
+     
+     
+ }
+ .menu-link{
+     display: flex;
+     margin-right: 0px;
+     min-width: 155px;
+     min-height: 81px;
+ }
+ 
+ 
+ 
+ .link-menu-header{
+     display: block;
+     text-decoration: none;
+     color:white;
+     text-transform: uppercase;
+     font-weight: 700;
+     line-height: 78px;
+     align-items: center;
+     width: 145px;
+     position: absolute;
+     text-align: center;
+     
+ 
+ }
+ .link-menu-header:after{
+    background-color: white;
+     display: block;
+     content: "";
+     height: 2px;
+     width: 0%;
+     left:53%;
+     position:absolute;
+     -webkit-transition: width .3s ease-in-out;
+     -moz--transition: width .3s ease-in-out;
+     transition: width .3s ease-in-out;
+     -webkit-transform:translateX(-50%);
+     -moz-transform:translateX(-50%);
+     transform:translateX(-50%);
+ }
+ 
+ .link-menu-header:hover:after,
+ .link-menu-header:focus:after {
+     width: 155px;
+ }
+ 
+ /*.arrow {
+     background-image: url(arrow.png);
+     background-size: 20px 20px;
+     width: 20px;
+     height: 20px;
+     background-repeat: no-repeat;
+     position: absolute;
+     top: 30px;
+     right: 10px;
+     
+ }*/
+ .search-form {
+     display: flex;
+     position: relative;
+     margin: 0;
+ }
+ input::-webkit-input-placeholder {   
+     color:rgb(0,175,255);
+     font-family:"Roboto", sans-serif;
+     font-size:10px;
+     font-weight: 300;
+     padding:0px;
+     outline-style:none;	
+ } 
+ .search-heder{
+     width: 220px;
+     height: 35px;
+     -webkit-appearance: none; /* без этого не стелезироват input */
+     outline-style: none;
+     background-color: white;
+     border: none;
+     line-height: 35px; 
+     box-sizing: border-box;
+     border-top-left-radius: 5px;
+     border-bottom-left-radius: 5px;
+ }
+ .button-lupa {
+     height: 35px;
+     background-image: url(lupa.png);
+     background-position: center;
+     background-color: white;
+     background-size: 20px 20px;
+     background-repeat: no-repeat;
+     width: 50px;
+     border: none;
+     border-top-right-radius: 5px;
+     border-bottom-right-radius: 5px;
+ }
+ .button-lupa:hover{
+     background-image: url(lupa3.png);
+     background-position: center;
+     background-color: white;
+     background-size: 20px 20px;
+     background-repeat: no-repeat;
+     background-color: rgb(0,165,300);
+ 
+     
+ }
+ .nav-menu-header{
+     border: 1px solid white;
+     position: absolute;
+     top: 80px;
+     left: -1px;
+     display: flex;
+     display: none;
+ }
+ .menu-link:hover .nav-menu-header{
+     display: flex;
+ 
+ }
+ .nav-menu-header-options{
+     display: flex;
+     width: 250px;
+     height: 50px;
+     justify-content: space-around;
+     align-items: center;
+     background: white;
+     display: block;
+     position: relative;
+ }
+ .nav-menu-header-options-link{
+     width: 250px;
+     color: rgb(0,175,255);
+     text-decoration: none;
+     display: block;
+     line-height: 49px;
+     text-align: center;
+ }
+ 
+ .nav-menu-header-options:after{
+     background-color: rgb(0,175,255);
+     display: block;
+     content: "";
+     height: 2px;
+     width: 0%;
+     left:50%;
+     position:absolute;
+     -webkit-transition: width .3s ease-in-out;
+     -moz--transition: width .3s ease-in-out;
+     transition: width .3s ease-in-out;
+     -webkit-transform:translateX(-50%);
+     -moz-transform:translateX(-50%);
+     transform:translateX(-50%);
+ }
+ .nav-menu-header-options:hover:after,
+ .nav-menu-header-options:focus:after {
+     width: 250px;
+ }
